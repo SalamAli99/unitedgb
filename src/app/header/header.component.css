@@ -1,0 +1,13 @@
+.navbar{
+    overflow: hidden;
+}
+mat-sidenav-container{
+    height: 100%;
+    
+   
+}
+mat-sidenav{
+    background-color: lightgray;
+    border: none;
+    width: 100%;
+}
