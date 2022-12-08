@@ -12,41 +12,43 @@ toggle(){
 }
 navlist= [
   {
-    icon:'home',
+   link:'/home',
     name: 'Home',
     
   },
-  {
-    icon:'settings',
+  {link:'/services',
     name: 'Services',
     
   },
-  {
-    icon:'local_shipping',
+  {link:'/shipping',
     name: 'Shipping Fee',
     
   },
   {
-    icon:'attach_money',
+    link:'/prices',
     name: ' Prices',
     
   },
-  {
-    icon:'chat',
+  {link:'/blog',
     name: 'Blog',
     
   },
   {
-    icon:'phone',
+    link:'/contactus',
     name: 'Contact Us',
     
   },
   {
-    icon:'sentiment_satisfied_alt',
+    link:'/features',
     name: 'Features',
     
   },
+  {
+    link:'/language',
+    name:'Change Language'
+  }
 ];
+
 
 }
 

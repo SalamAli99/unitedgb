@@ -1,0 +1,184 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins','sans-serif';
+    background-color: #eef8ff;
+}
+footer{
+  margin-top: 100%;
+    width: 100%;
+   
+    bottom: 0;
+    
+    background:linear-gradient(to right,#00093c,#2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.col{
+    flex-basis: 20%;
+    padding: 10px;
+
+}
+/* logo styles goes here */
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+
+.content {
+
+  position: relative;
+}
+
+.content h2 {
+  color: #fff;
+  font-size: 3em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.content h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #03a9f4;
+}
+
+.content h2:nth-child(2) {
+  color: #03a9f4;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+/* ///////////////////////////////////// */
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+.col h3{
+width: fit-content;
+margin-bottom: 40px;
+position: relative;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom:12px ;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+} 
+
+.social-icons .fab {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+text-align: center;
+line-height: 40px;
+font-size: 20px;
+color: #000;
+background-color: #fff;
+margin-right: 15px;
+cursor: pointer;
+margin-bottom: 20px;
+
+
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+.copyright{
+text-align: center;
+}
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+
+}
+.underline span {
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+
+}
+@keyframes moving {
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+@media(max-width:1300px){
+footer{
+    margin-top: 100%;
+    bottom: unset;
+    
+}
+.col{
+    flex-basis: 100%;
+   
+
+}
+.content{
+    margin-left: 50%;
+}
+
+}

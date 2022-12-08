@@ -1,37 +1,18 @@
-<!-- headline -->
-<mat-toolbar class="navbar">
-    <button mat-icon-button (click)="toggle()">
-      <mat-icon>view_headline</mat-icon>
-  </button>
-  <button mat-icon-button [matMenuTriggerFor]="languageMenu">
-      <mat-icon>language</mat-icon>
-  </button>
-  <img src="assets/images/logounited3.png">
-  </mat-toolbar>
-  <!-- //////////////////////////// -->
-<mat-sidenav-container>
-    <!-- side nav bar -->
-    <mat-sidenav mode="side"[opened]="opened">
-        <!-- list in the side bar-->
+<nav>
+  <!-- <img src="assets/images/logounitedlast.png" alt="logo" class="logo"> -->
+  
+    <div class="content">
+      <h2>United</h2>
+      <h2>United</h2>
+    </div>
+ 
+  <input type="checkbox" id="check" > 
+    <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+  <ul>
+    <li *ngFor="let item of navlist ">
+      
+      <a [routerLink]="item.link">{{item.name}}</a>
 
-        <mat-list>
-        
-            <mat-list-item *ngFor="let item of navlist">
-              <mat-icon matListItemIcon>{{item.icon}}</mat-icon>
-              <div matListItemTitle>{{item.name}}</div>
-              
-            </mat-list-item>
-          
-          </mat-list>
-        <!-- /////////////////// -->
-    </mat-sidenav>
-<!-- //////////////////// -->
-</mat-sidenav-container>
-<!-- language button menu -->
-<mat-menu #languageMenu="matMenu">
-    <button mat-menu-item>Arabic</button>
-    <button mat-menu-item>English</button>
-
-</mat-menu>
-<!-- ///////////////////// -->
-
+    </li>
+  </ul>
+</nav>

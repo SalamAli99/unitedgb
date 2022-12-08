@@ -7,7 +7,10 @@ import{MatProgressSpinnerModule}from '@angular/material/progress-spinner';
 import{MatToolbarModule} from '@angular/material/toolbar';
 import{MatSidenavModule} from '@angular/material/sidenav';
 import{MatMenuModule}from '@angular/material/menu';
-import {MatListModule} from '@angular/material/list'
+import {MatListModule} from '@angular/material/list';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MatDividerModule } from '@angular/material/divider';
+
 const MaterialComponents=[
   MatButtonModule,
   MatButtonToggleModule,
@@ -17,7 +20,9 @@ const MaterialComponents=[
   MatToolbarModule,
   MatSidenavModule,
   MatMenuModule,
-  MatListModule
+  MatListModule,
+  MatDividerModule,
+  FontAwesomeModule
 ];
 
 
