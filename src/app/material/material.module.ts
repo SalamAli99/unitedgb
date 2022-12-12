@@ -10,6 +10,9 @@ import{MatMenuModule}from '@angular/material/menu';
 import {MatListModule} from '@angular/material/list';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MatDividerModule } from '@angular/material/divider';
+import {MatCardModule} from '@angular/material/card';
+import { NgxPaginationModule } from 'ngx-pagination';
+import {MatTableModule} from '@angular/material/table';
 
 const MaterialComponents=[
   MatButtonModule,
@@ -22,7 +25,11 @@ const MaterialComponents=[
   MatMenuModule,
   MatListModule,
   MatDividerModule,
-  FontAwesomeModule
+  FontAwesomeModule,
+  MatCardModule,
+  NgxPaginationModule,
+  MatTableModule,
+ 
 ];
 
 

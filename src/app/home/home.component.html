@@ -1,14 +1,56 @@
-<div class="container">
-  <h2 class="title">
-    <span class="title-word title-word-1">UNITED</span>
-    <span class="title-word title-word-2">GUANGZHOU</span>
-    <span class="title-word title-word-3">BUSSINESS</span>
-    <span class="title-word title-word-4">GROUP</span>
-  </h2>
+<div class="mainbody">
+  <div class="container">
+    <h2 class="title">
+      <span class="title-word title-word-1">UNITED</span>
+      <span class="title-word title-word-2">GUANGZHOU</span>
+      <span class="title-word title-word-3">BUSSINESS</span>
+      <span class="title-word title-word-4">GROUP</span>
+    </h2>
+    
+  </div>
+  <div class="cards" *ngFor="let card of cards">
+    <mat-card class="headercards">
+      <mat-card-header>
+        <mat-card-title>{{card.title}}</mat-card-title>
+        <mat-card-subtitle>{{card.amount}}</mat-card-subtitle>
+        <img mat-card-avatar [src]="card.imgurl">
+      </mat-card-header>
+     
+    </mat-card>
+  </div>
+
+  <div class="product">
+    <div class="container-fluid">
+      <div class="slider-wrap">
+        <div class="slider-main">
+          <div class="item"*ngFor="let card of cardsSlider ;let i=index">
+           
+              <mat-card  *ngIf="cardsSlider[i]==cardsSlider[slideIndex]">
+                <mat-card-header>
+                  <mat-card-title class="sliderTitle">{{card.title}}</mat-card-title>
+                </mat-card-header>
+                <mat-card-content class="sliderContent">{{card.content}}</mat-card-content>
+               <img class="sliderImg" mat-card-md-image [src]="card.imageUrl">
+              </mat-card>
+            </div>
+          </div>
+          <div class="button-area">
+            <button class="prev" type="button" (click)="changeSlide(-1)">
+              &#10094;
+            </button>
+            <button  class="next" type="button"   (click)="changeSlide(1)">
+              &#10095;
+            </button>
+          </div>
+        </div>
+        
+      </div>
+    
+    </div>
   
+    <div class="whyUs">
+      <h2>Why UNITED?</h2>
+      <h4>An Integrated System For All Your E-Business Success Needs In One Platform</h4>
+    </div>
 </div>
-
-
-
-
    

@@ -23,8 +23,11 @@
     "@fortawesome/angular-fontawesome": "^0.12.0",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "angular-bootstrap-md": "^4.3.2",
     "font-awesome": "^4.7.0",
+    "ngx-pagination": "^6.0.3",
     "rxjs": "~7.5.0",
+    "slick-carousel": "^1.8.1",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
