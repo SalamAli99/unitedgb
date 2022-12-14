@@ -142,5 +142,50 @@ console.log(this.slideIndex);
       content:`We enable you to start your business to sell your products and achieve profits by creating an integrated online store with professional advantages, the most important of which are: distinctive and modern design, easy user experience, adding endless sections and products, more than one payment method, linking with reliable shipping and delivery companies, receiving an unlimited number of customers Providing marketing tools that help you reach customers faster to expand your business, and a lot of endless benefits.`,
       imageUrl:"../../assets/images/onlinestore.jpg"
     }   
+  ];
+ 
+
+  rows=[
+    {
+      mediaList: [
+        {
+          imageUrl: "https://mycn.io/en/image/image_1604929481163777757.png",
+          title: "Product Shipping",
+          content: `Packaging And Consolidating The Shipments In One Parcel, To Reduce A Shipping Cost, And Shipping The Products To Your Address Including Customs Clearance.`
+        },
+        {
+          imageUrl: "https://mycn.io/en/image/image_16233132551924960361.png",
+          title: "Personal Shopper",
+          content: `A Service That Enables You To Import From China At Wholesale Price And With The Highest Quality, And Ensuring The Product As Required.`
+        },
+        {
+          imageUrl: "https://mycn.io/en/image/image_1623313279856270374.png",
+          title: "Warehouse For Storing Products ",
+          content: `Giving An Address To The Customer In China, Saudi Arabia, And USA Warehouses To Receive And Store His Products Easily, And Providing Distinguished Logistics Services.`
+        }
+      ]
+    },
+    {
+
+
+      mediaList: [
+        {
+          imageUrl: "https://mycn.io/en/image/image_16092332801779834481.png",
+          title: "Own A Store At The Lowest Costs",
+          content: `You Can Create Your Own Design Store Within Minutes At The Lowest Costs, And Integrated With All Services.`
+        },
+        {
+          imageUrl: "https://mycn.io/en/image/image_1609236993229466419.png",
+          title: "Drop Shipping",
+          content: `You Can Create An Online Store And Display Products That You Copy From Other Stores, With An Increase In The Price Of The Product Over The Original Price For It, And You Have The Profit Difference Between The Two Prices.`
+        },
+        {
+          imageUrl: "https://mycn.io/en/image/image_16092337081841811786.png",
+          title: "Marketing Tools To Increase Your Sales",
+          content: `We Are Keen To Enable Merchants To Promote Their Stores With Ease And Provide Professional Tools For Your Store's Success.`
+        }
+      ]
+
+    }
   ]
 }

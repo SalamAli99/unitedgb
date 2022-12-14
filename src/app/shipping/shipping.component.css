@@ -1,0 +1,24 @@
+.shipping-fee{
+    text-align: center;
+}
+.shipping-fee h1{
+    letter-spacing:3px;
+    color: aquamarine;
+margin-top: 10%;
+font-size: 50px;
+font-weight: bolder;
+}
+.shipping-fee p{
+    letter-spacing: normal;
+    margin-top: 50px;
+    font-size: 30px;
+    color: #fff;
+}
+.mainForm{
+    border:1px solid thistle;
+    border-radius: 20px;
+    border-top-width: 8px;
+    border-top-color: aqua;
+    height: 500px;
+   margin:50% 40px;
+}

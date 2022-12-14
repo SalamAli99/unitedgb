@@ -24,6 +24,8 @@
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "angular-bootstrap-md": "^4.3.2",
+    "angular-countries": "^1.1.5",
+    "countries-list": "^2.6.1",
     "font-awesome": "^4.7.0",
     "ngx-pagination": "^6.0.3",
     "rxjs": "~7.5.0",

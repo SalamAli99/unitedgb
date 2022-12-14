@@ -49,8 +49,16 @@
     </div>
   
     <div class="whyUs">
-      <h2>Why UNITED?</h2>
+      <h1>Why UNITED?</h1>
       <h4>An Integrated System For All Your E-Business Success Needs In One Platform</h4>
+      <div class="row" *ngFor="let row of rows">
+        <div class="media" *ngFor="let media of row.mediaList">
+          <img [src]="media.imageUrl">
+          <h2>{{media.title}}</h2>
+          <p>{{media.content}}</p>
+        </div>
+       
+      </div>
     </div>
 </div>
    

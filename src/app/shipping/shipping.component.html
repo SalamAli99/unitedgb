@@ -1,1 +1,31 @@
-<p>shipping works!</p>
+<div class="shipping-fee">
+    <h1>Shipping Rates</h1>
+    <p>We Help You Calculate The Approximate Shipping Cost To Your Country!</p>
+    <div class="mainForm">
+        <form>
+            <h3>Shipment Address</h3>
+            <label>Ship From :</label>
+            <select>
+                <option>China</option>
+            </select>
+            <label>To :</label>
+            <select>
+                <option *ngFor="let option of countriesOptionsList">{{option}}</option>
+            </select>
+            <hr>
+
+            <h3>Shipment Information</h3>
+            <label>Type Of Shipping :</label>
+            <select>
+                <option>China</option>
+            </select>
+            <label>Type Of Shipments :</label>
+            <select>
+                <option *ngFor="let option of countriesOptionsList">{{option}}</option>
+            </select>
+            <label>Weight</label>
+            <input type="text">
+            <hr>
+        </form>
+    </div>
+</div>
