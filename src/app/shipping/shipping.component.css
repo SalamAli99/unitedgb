@@ -1,3 +1,8 @@
+body{
+    font-family: "Montserrat", sans-serif;
+  
+  
+  }
 .shipping-fee{
     text-align: center;
 }
@@ -14,11 +19,79 @@ font-weight: bolder;
     font-size: 30px;
     color: #fff;
 }
+
+
+
 .mainForm{
-    border:1px solid thistle;
+margin: auto;
+height:max-content;
+margin-top: 50%;
+border: 1px solid gray;
+border-radius: 20px;
+border-top: 8px solid darkcyan;
+padding: 10px;
+width: 800px;
+}
+.mainForm h3{
+    
+    font-size: medium;
+    font-weight: bold;
+    color:darkcyan;
+
+
+}
+.mainForm select {
+    color: grey;
+    margin: 12px;
+        width: 100%;
+        padding: 16px 20px;
+        border: none;
+        border-radius:20px;
+        background-color: #f1f1f1;
+      
+}
+.mainForm button{
+    background-color: #04AA6D;
+    border: none;
     border-radius: 20px;
-    border-top-width: 8px;
-    border-top-color: aqua;
-    height: 500px;
-   margin:50% 40px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.mainForm label{
+    font-size: medium;
+    color: gray;
+    display: block;
+
+}
+.mainForm input{
+    margin: 12px 0;
+    width: 100%;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: #f1f1f1;
+    border-radius:10px;
+}
+
+.mainForm 
+.address{
+
+border-bottom: 1px solid gray;
+padding: 12px;
+
+  
+}
+
+.mainForm
+.information{
+   
+    margin-top: 30px;
+    padding: 12px;
+}
+input[type=number]:focus{
+    outline: none;
+    border:1px solid #04AA6D;
 }

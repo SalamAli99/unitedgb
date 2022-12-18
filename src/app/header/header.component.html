@@ -9,10 +9,13 @@
   <input type="checkbox" id="check" > 
     <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
   <ul>
-    <li *ngFor="let item of navlist ">
+    <li *ngFor="let item of navlist " >
       
-      <a [routerLink]="item.link">{{item.name}}</a>
+      <a  [routerLink]="item.link">{{item.name}}</a>
       
     </li>
+  <button class="languageBtn" >Change Language</button>
+  <button class="languageBtn"(click)="toLoginPage()">SignUp | SignIn</button>
+
   </ul>
 </nav>

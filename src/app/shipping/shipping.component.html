@@ -2,30 +2,50 @@
     <h1>Shipping Rates</h1>
     <p>We Help You Calculate The Approximate Shipping Cost To Your Country!</p>
     <div class="mainForm">
-        <form>
+       <form>
+        
+        <div class="address">
             <h3>Shipment Address</h3>
-            <label>Ship From :</label>
-            <select>
-                <option>China</option>
-            </select>
-            <label>To :</label>
-            <select>
-                <option *ngFor="let option of countriesOptionsList">{{option}}</option>
-            </select>
-            <hr>
+            <div class="row">
+                <div class="col1">
+                    <label>Ship From : </label>
+                    <select>
 
+                        <option value="china" selected>China</option>
+                    </select>
+                </div>
+                <div class="col2">
+                    <label>To : </label>
+                    <select>
+                        <option [value]="address" *ngFor="let address of addressToList">{{address}}</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="information">
             <h3>Shipment Information</h3>
-            <label>Type Of Shipping :</label>
-            <select>
-                <option>China</option>
-            </select>
-            <label>Type Of Shipments :</label>
-            <select>
-                <option *ngFor="let option of countriesOptionsList">{{option}}</option>
-            </select>
-            <label>Weight</label>
-            <input type="text">
-            <hr>
-        </form>
+            <div class="row">
+                <div class="col1">
+                    <select>
+                      <option [value]="typo" *ngFor="let typo of typeOfShippingList ">{{typo}}</option>
+                    </select>
+                </div>
+                <div class="col2">
+                    <select>
+                        <option [value]="typo" *ngFor="let typo of typeOfShipmentsList">{{typo}}</option>
+                        
+                       
+                     </select>
+                </div>
+                <div class="col3">
+                    <input placeholder="Weight In KG" type="number">
+
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <button type="submit">Calculate</button>
+        </div>
+       </form>
     </div>
 </div>

@@ -1,0 +1,89 @@
+body{
+    font-family: "Montserrat", sans-serif;
+  
+  
+  }
+.contactUs{
+    text-align: center;
+}
+.contactUs h1{
+    letter-spacing:3px;
+    color: aquamarine;
+margin-top: 8%;
+font-size: 50px;
+font-weight: bolder;
+}
+.contactUs p{
+    letter-spacing: normal;
+    margin-top: 40px;
+    font-size: 30px;
+    color: #fff;
+    line-height: normal;
+}
+.contactForm{
+    margin-top: 50%;
+    width: 100%;
+   position: relative;
+}
+.contactForm h2{
+    margin-left: 4%;
+    font-size: large;
+color: #04AA6D;
+font-weight: bolder;
+
+}
+.contactForm h3{
+    margin-left: 4%;
+    font-size: large;
+    color: #04AA6D;
+    font-weight: bold;
+}
+.contactForm p{
+    margin-left: 4%;
+    font-size: medium;
+    color: gray;
+    font-weight: bold;
+}
+
+.contactForm img{
+    width: 500px;
+    height: 500px;
+    top: 3%;
+    right: 0%;
+    border-radius: 20px;
+    
+    
+    position: absolute;
+}
+.contactForm input{
+    width: 50%;
+    display: block;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid gray;
+    margin-top:10px;
+    margin-left: 4%;
+    padding: 10px;
+}
+.contactForm textarea{
+    display: block;
+    margin-top:10px;
+    margin-left: 4%;
+    background-color: #f1f1f1;
+    width: 50%;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.contactForm button{
+    margin-top:10px;
+    margin-left: 25%;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    /* margin: 10px 10px; */
+    cursor: pointer; 
+}

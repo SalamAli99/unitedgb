@@ -1,0 +1,53 @@
+body{
+    font-family: "Montserrat", sans-serif;
+  
+  
+  }
+.blog{
+    text-align: center;
+}
+.blog h1{
+    letter-spacing:3px;
+    color: aquamarine;
+margin-top: 8%;
+font-size: 50px;
+font-weight: bolder;
+}
+.blog p{
+    letter-spacing: normal;
+    margin-top: 40px;
+    font-size: 30px;
+    color: #fff;
+    line-height: normal;
+}
+.blogs{
+    margin-top: 50%;
+    width: 100%;
+}
+.blogs input[type=text]{
+    width: 90%;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-left: 5%;
+    padding: 10px;
+    
+}
+.blogs input[type=text]:focus{
+    outline: none;
+    border: 1px solid#04AA6D ;
+}
+
+
+
+
+
+
+
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }

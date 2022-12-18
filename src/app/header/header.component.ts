@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -6,46 +7,39 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  constructor(private router:Router){}
+  toLoginPage(){
+this.router.navigate(['/login']);
+  }
 opened=false;
 toggle(){
   this.opened=!this.opened;
 }
 navlist= [
   {
+    selected:true,
    link:'/home',
     name: 'Home',
     
   },
   {link:'/services',
     name: 'Services',
+    selected:false
     
   },
   {link:'/shipping',
     name: 'Shipping Fee',
-    
-  },
-  {
-    link:'/prices',
-    name: ' Prices',
+    selected:false
     
   },
   {link:'/blog',
     name: 'Blog',
-    
+    selected:false
   },
   {
     link:'/contactus',
     name: 'Contact Us',
-    
-  },
-  {
-    link:'/features',
-    name: 'Features',
-    
-  },
-  {
-    link:'/language',
-    name:'Change Language'
+    selected:false
   }
 ];
 

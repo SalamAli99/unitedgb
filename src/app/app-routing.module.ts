@@ -12,6 +12,7 @@ import { ServicesComponent } from './services/services.component';
 import { ShippingComponent } from './shipping/shipping.component';
 
 const routes: Routes = [
+  {path:'',redirectTo:'/home',pathMatch:'full'},
   {path:'home',component:HomeComponent},
   {path:'services',component:ServicesComponent},
   {path:'shipping',component:ShippingComponent},

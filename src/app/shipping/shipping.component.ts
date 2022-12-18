@@ -6,8 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./shipping.component.css']
 })
 export class ShippingComponent {
-  countriesOptionsList=[
-     'Syria',
-    'Lebanon'
-  ]
+  typeOfShipmentsList=[
+    'Type Of Shipment',
+    'Normal',
+    'Battery',
+    'Magnet',
+    'Special Goods'
+  ];
+  typeOfShippingList=[
+    'Type Of Shipping ',
+    'Air',
+    'Sea'
+  ];
+  addressToList=[
+    'Syria',
+    'Lebanon',
+    'Egypt'
+  ];
 }

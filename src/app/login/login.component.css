@@ -1,0 +1,81 @@
+.loginForm{
+    background:rgba(0, 0, 0, 0.5);
+ 
+    width:500px;
+    height: 500px;
+    margin-left: 30%;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+h1{
+    color: #f1f1f1;
+   padding-top: 30px;
+    font-size: 50px;
+    text-align: center;
+
+}
+form{
+    padding-top: 50px;
+}
+input{
+    display: inline-block;
+    width: 80%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    color: gray;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    outline: none;
+}
+input:hover{
+ outline: none;
+ border: 1px solid #04AA6D;
+}
+input[type=checkbox]{
+   width: 20px;
+   height: 20px;
+}
+.rememberMe{
+    display:block;
+    width: 80%;
+}
+.rememberMe span{
+    
+
+    font-size: medium;
+    color: #f1f1f1;
+}
+.rememberMe label{
+   float: right;
+    font-size: medium;
+    color: #f1f1f1;
+}
+ button{
+    margin-top:10px;
+    margin-left: 40%;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+   display: block;
+    cursor: pointer; 
+    margin-bottom: 10px;
+    
+}
+a{
+   
+    color:#04AA6D;
+    font-size: 17px;
+    text-transform: uppercase;
+   font-weight: bold;
+   text-decoration: none;
+}
+label{
+    margin-left: 10%;
+   
+    font-size: medium;
+    color: #f1f1f1;
+}
